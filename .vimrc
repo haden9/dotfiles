@@ -64,6 +64,7 @@ let g:rubycomplete_rails = 1
 
 " vim-tags
 set tags=~/tags
+let g:vim_tags_auto_generate = 1
 
 " ctrlp-vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
