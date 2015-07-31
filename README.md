@@ -9,5 +9,5 @@
 
 ## Instalation
 ```bash
-$ git clone https://github.com/haden9/dotfiles.git && source dotfiles/setup.sh
+$ git clone https://github.com/haden9/dotfiles.git && cd dotfiles && source setup.sh
 ```
