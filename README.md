@@ -9,5 +9,5 @@
 
 ## Instalation
 ```bash
-$ git clone https://github.com/haden9/dotfiles.git && ln -f dotfiles/.vimrc ~/.vimrc
+$ git clone https://github.com/haden9/dotfiles.git && source setup.sh
 ```
