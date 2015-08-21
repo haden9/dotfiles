@@ -45,6 +45,7 @@ set expandtab
 retab
 set list
 set noswapfile
+highlight ColorColumn ctermbg=darkgrey
 let &colorcolumn="80,".join(range(100,999),",")
 
 " Vim file/dir options
