@@ -18,6 +18,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'pangloss/vim-javascript'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'szw/vim-tags'
+Plugin '4Evergreen4/vim-hardy'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -45,7 +46,7 @@ set expandtab
 retab
 set list
 set noswapfile
-highlight ColorColumn ctermbg=darkgrey
+highlight ColorColumn ctermbg=lightgrey
 let &colorcolumn="80,".join(range(100,999),",")
 
 " Vim file/dir options
