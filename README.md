@@ -7,7 +7,7 @@
 * ack-grep 2.14
 * vundle v0.10.2
 
-## Instalation
+## Installation
 ```bash
 $ git clone https://github.com/haden9/dotfiles.git && cd dotfiles && source setup.sh
 ```
