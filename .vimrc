@@ -42,6 +42,7 @@ set nocompatible
 set number
 set tabstop=2
 set shiftwidth=2
+autocmd FileType javascript setlocal shiftwidth=4 tabstop=4
 set expandtab
 set autochdir
 retab
