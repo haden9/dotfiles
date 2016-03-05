@@ -3,4 +3,5 @@
 full_pwd="$(pwd -P)"
 echo "Creating .vimrc HOME dir symlink..."
 ln -s -f $full_pwd/.vimrc ~/.vimrc
+ln -s -f $full_pwd/.tmux.conf ~/.tmux.conf
 echo "Done!"

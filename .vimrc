@@ -20,6 +20,12 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'szw/vim-tags'
 Plugin '4Evergreen4/vim-hardy'
 
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+" Optional:
+Plugin 'honza/vim-snippets'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
