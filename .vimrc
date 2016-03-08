@@ -79,4 +79,4 @@ let g:vim_tags_auto_generate = 1
 
 " ctrlp-vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-set wildignore+=*/coverage/*,*/log/*,*/tmp/*,*.so,*.swp,*.zip
+set wildignore+=*/coverage/*,*/log/*,*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*
