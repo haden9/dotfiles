@@ -19,6 +19,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'szw/vim-tags'
 Plugin '4Evergreen4/vim-hardy'
+Plugin 'scrooloose/nerdtree'
 
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -50,7 +51,6 @@ set tabstop=2
 set shiftwidth=2
 autocmd FileType javascript setlocal shiftwidth=4 tabstop=4
 set expandtab
-set autochdir
 retab
 set list
 set noswapfile
