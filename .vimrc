@@ -74,8 +74,9 @@ let g:rubycomplete_buffer_loading = 1
 let g:rubycomplete_rails = 1
 
 " vim-tags
+" Run the command: ctags -R --exclude=.git --exclude=node_modules --exclude=public
+" --exclude=.bower --exclude=bower_components ~/workspaces/.
 set tags=~/tags
-let g:vim_tags_auto_generate = 1
 
 " ctrlp-vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
