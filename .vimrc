@@ -17,7 +17,8 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'Yggdroot/indentLine'
 Plugin 'pangloss/vim-javascript'
 Plugin 'vim-ruby/vim-ruby'
-Plugin 'szw/vim-tags'
+" Disabling ctags
+" Plugin 'szw/vim-tags'
 Plugin '4Evergreen4/vim-hardy'
 Plugin 'scrooloose/nerdtree'
 
@@ -76,7 +77,7 @@ let g:rubycomplete_rails = 1
 " vim-tags
 " Run the command: ctags -R --exclude=.git --exclude=node_modules --exclude=public
 " --exclude=.bower --exclude=bower_components ~/workspaces/.
-set tags=~/tags
+" set tags=~/tags
 
 " ctrlp-vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
