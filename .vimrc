@@ -17,10 +17,12 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'Yggdroot/indentLine'
 Plugin 'pangloss/vim-javascript'
 Plugin 'vim-ruby/vim-ruby'
-" Disabling ctags
+" ctags (deprecated)
 " Plugin 'szw/vim-tags'
+Plugin 'rking/ag.vim'
 Plugin '4Evergreen4/vim-hardy'
 Plugin 'scrooloose/nerdtree'
+Plugin 'takac/vim-spotifysearch'
 
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -67,8 +69,8 @@ autocmd BufEnter * silent! lcd %:p:h
 " indentLine
 let g:indentLine_color_term = 239
 
-" ack-vim
-let g:ackprg="ack -H --nocolor --nogroup --ignore-dir=log --ignore-dir=tmp --column"
+" ack-vim (deprecated)
+" let g:ackprg="ack -H --nocolor --nogroup --ignore-dir=log --ignore-dir=tmp --column"
 
 " vim-ruby
 let g:rubycomplete_buffer_loading = 1
@@ -82,3 +84,11 @@ let g:rubycomplete_rails = 1
 " ctrlp-vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set wildignore+=*/coverage/*,*/log/*,*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*
+
+" vim-spotify
+let g:spotify_prev_key = "<F7>"
+let g:spotify_playpause_key = "<F8>"
+let g:spotify_next_key = "<F9>"
+
+" silver_searcher
+let g:ag_prg="/usr/local/bin/ag -H --nocolor --nogroup --ignore-dir=log --ignore-dir=tmp --column --vimgrep"
