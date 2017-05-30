@@ -22,7 +22,8 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'rking/ag.vim'
 Plugin '4Evergreen4/vim-hardy'
 Plugin 'scrooloose/nerdtree'
-Plugin 'takac/vim-spotifysearch'
+" vim-spotify (deprecated)
+" Plugin 'takac/vim-spotifysearch'
 
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -86,9 +87,9 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 set wildignore+=*/coverage/*,*/log/*,*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*
 
 " vim-spotify
-let g:spotify_prev_key = "<F7>"
-let g:spotify_playpause_key = "<F8>"
-let g:spotify_next_key = "<F9>"
+" let g:spotify_prev_key = "<F7>"
+" let g:spotify_playpause_key = "<F8>"
+" let g:spotify_next_key = "<F9>"
 
 " silver_searcher
 let g:ag_prg="/usr/local/bin/ag -H --nocolor --nogroup --ignore-dir=log --ignore-dir=tmp --column --vimgrep"
