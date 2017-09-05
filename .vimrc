@@ -24,6 +24,8 @@ Plugin '4Evergreen4/vim-hardy'
 Plugin 'scrooloose/nerdtree'
 " vim-spotify (deprecated)
 " Plugin 'takac/vim-spotifysearch'
+" Typescript for Angular2
+Plugin 'leafgarland/typescript-vim'
 
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
