@@ -59,7 +59,7 @@ let &colorcolumn="80,".join(range(100,999),",")
 
 " Vim file/dir options
 set listchars=tab:>-,trail:~,extends:>,precedes:<
-autocmd FileType ruby,eruby,yaml,css,scss,javascript,sass autocmd BufWritePre <buffer> :%s/\s\+$//e
+autocmd FileType ruby,eruby,yaml,css,scss,javascript,sass,jsx autocmd BufWritePre <buffer> :%s/\s\+$//e
 autocmd FileType ruby map <F9> :w<CR>:!ruby -c %<CR>
 autocmd BufEnter * silent! lcd %:p:h
 
@@ -84,3 +84,6 @@ set wildignore+=*/coverage/*,*/log/*,*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*
 
 " silver_searcher
 let g:ag_prg="/usr/local/bin/ag -H --nocolor --nogroup --ignore-dir=log --ignore-dir=tmp --column --vimgrep"
+
+" Trigger config UtilSnips
+let g:UltiSnipsExpandTrigger="<C-l>"
