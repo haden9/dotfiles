@@ -17,21 +17,14 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'Yggdroot/indentLine'
 Plugin 'pangloss/vim-javascript'
 Plugin 'vim-ruby/vim-ruby'
-" ctags (deprecated)
-" Plugin 'szw/vim-tags'
 Plugin 'rking/ag.vim'
 Plugin '4Evergreen4/vim-hardy'
 Plugin 'scrooloose/nerdtree'
-" vim-spotify (deprecated)
-" Plugin 'takac/vim-spotifysearch'
-" Typescript for Angular2
-Plugin 'leafgarland/typescript-vim'
-
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
-" Optional:
-Plugin 'honza/vim-snippets'
+Plugin 'epilande/vim-react-snippets'
+Plugin 'SirVer/ultisnips'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -78,11 +71,6 @@ let g:indentLine_color_term = 239
 " vim-ruby
 let g:rubycomplete_buffer_loading = 1
 let g:rubycomplete_rails = 1
-
-" vim-tags
-" Run the command: ctags -R --exclude=.git --exclude=node_modules --exclude=public
-" --exclude=.bower --exclude=bower_components ~/workspaces/.
-" set tags=~/tags
 
 " ctrlp-vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
