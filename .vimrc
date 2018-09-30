@@ -87,3 +87,7 @@ let g:ag_prg="/usr/local/bin/ag -H --nocolor --nogroup --ignore-dir=log --ignore
 
 " Trigger config UtilSnips
 let g:UltiSnipsExpandTrigger="<C-l>"
+
+" prettier Autosave
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue Prettier
