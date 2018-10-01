@@ -26,6 +26,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'epilande/vim-react-snippets'
 Plugin 'SirVer/ultisnips'
 Plugin 'prettier/vim-prettier'
+Plugin 'terryma/vim-multiple-cursors'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -49,7 +50,8 @@ set nocompatible
 set number
 set tabstop=2
 set shiftwidth=2
-autocmd FileType javascript setlocal shiftwidth=4 tabstop=4
+" Disable auto tab for js files
+" autocmd FileType javascript setlocal shiftwidth=4 tabstop=4
 set expandtab
 retab
 set list
@@ -66,9 +68,6 @@ autocmd BufEnter * silent! lcd %:p:h
 " indentLine
 let g:indentLine_color_term = 239
 
-" ack-vim (deprecated)
-" let g:ackprg="ack -H --nocolor --nogroup --ignore-dir=log --ignore-dir=tmp --column"
-
 " vim-ruby
 let g:rubycomplete_buffer_loading = 1
 let g:rubycomplete_rails = 1
@@ -76,11 +75,6 @@ let g:rubycomplete_rails = 1
 " ctrlp-vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set wildignore+=*/coverage/*,*/log/*,*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*
-
-" vim-spotify
-" let g:spotify_prev_key = "<F7>"
-" let g:spotify_playpause_key = "<F8>"
-" let g:spotify_next_key = "<F9>"
 
 " silver_searcher
 let g:ag_prg="/usr/local/bin/ag -H --nocolor --nogroup --ignore-dir=log --ignore-dir=tmp --column --vimgrep"
