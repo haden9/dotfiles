@@ -11,12 +11,12 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Other Plugins
-Plugin 'mileszs/ack.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'Yggdroot/indentLine'
-Plugin 'pangloss/vim-javascript'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 Plugin 'rking/ag.vim'
 Plugin '4Evergreen4/vim-hardy'
 Plugin 'scrooloose/nerdtree'
