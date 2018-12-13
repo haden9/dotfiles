@@ -27,6 +27,7 @@ Plugin 'epilande/vim-react-snippets'
 Plugin 'SirVer/ultisnips'
 Plugin 'prettier/vim-prettier'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -132,3 +133,13 @@ let g:prettier#config#config_precedence = 'prefer-file'
 " always|never|preserve
 let g:prettier#config#prose_wrap = 'preserve'
 " prettier Settings End
+
+" You Complete Me
+" Start autocompletion after 4 chars
+let g:ycm_min_num_of_chars_for_completion = 4
+let g:ycm_min_num_identifier_candidate_chars = 4
+let g:ycm_enable_diagnostic_highlighting = 0
+" Don't show YCM's preview window [ I find it really annoying ]
+set completeopt-=preview
+let g:ycm_add_preview_to_completeopt = 0
+" End You Complete Me
