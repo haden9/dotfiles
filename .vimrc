@@ -27,7 +27,7 @@ Plugin 'epilande/vim-react-snippets'
 Plugin 'SirVer/ultisnips'
 Plugin 'prettier/vim-prettier'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
+Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
