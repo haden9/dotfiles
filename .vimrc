@@ -28,6 +28,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'prettier/vim-prettier'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --all' }
+Plugin 'jpaparra/vim-spotifysearch'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
